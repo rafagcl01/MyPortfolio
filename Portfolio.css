@@ -13,7 +13,7 @@
 .u-section-1 .u-gallery-1 {
   height: 459px;
   width: 848px;
-  margin: 0 auto 27px;
+  margin: -16px auto 43px 111px;
 }
 
 .u-section-1 .u-carousel-indicators-1 {
@@ -82,9 +82,16 @@
   height: 40px;
 }
 
+@media (max-width: 1199px) {
+  .u-section-1 .u-gallery-1 {
+    margin-left: 92px;
+  }
+}
+
 @media (max-width: 991px) {
   .u-section-1 .u-gallery-1 {
     width: 720px;
+    margin-left: 0;
   }
 }
 
